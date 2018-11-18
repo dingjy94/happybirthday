@@ -1,10 +1,12 @@
 import React from 'react';
 
 import Image from '../components/image';
+import HappyBirthday from '../components/happybirthday';
 
 const IndexPage = () => (
-  <div>
+  <div style={{ height: '100vh', width: '100vh'}}>
     <Image />
+    <HappyBirthday />
   </div>
 )
 

@@ -1,19 +1,17 @@
 import React from 'react';
 
-import './image.css';
+import './image.scss';
 
 //images
-import first from '../images/1.jpeg';
-import second from '../images/2.jpeg';
-import third from '../images/3.jpeg';
-import fourth from '../images/4.jpeg';
-import fifth from '../images/5.jpg';
-import sixth from '../images/6.jpg';
-import seventh from '../images/7.jpeg';
-import ninth from '../images/9.jpeg';
-import tenth from '../images/10.jpg';
-import eleventh from '../images/11.jpg';
-import tweleveth from '../images/12.jpg';
+import dec1 from '../images/dec1.jpg';
+import dec2 from '../images/dec2.jpg';
+import dec3 from '../images/dec3.jpg';
+import dec4 from '../images/dec4.jpg';
+import dec5 from '../images/dec5.jpg';
+import dec6 from '../images/dec6.jpg';
+import dec7 from '../images/dec7.jpg';
+import dec8 from '../images/dec8.jpg';
+
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -28,17 +26,16 @@ import tweleveth from '../images/12.jpg';
 
 const Image = () => (
   <div id="container">
-    <img class="pic pic1" src={first} />
-    <img class="pic pic2" src={second} />
-    <img class="pic pic3" src={third} />
-    <img class="pic pic4" src={fourth} />
-    <img class="pic pic5" src={fifth} />
-    <img class="pic pic6" src={sixth} />
-    <img class="pic pic7" src={seventh} />
-    <img class="pic pic9" src={ninth} />
-    <img class="pic pic10" src={tenth} />
-    <img class="pic pic11" src={eleventh} />
-    <img class="pic pic12" src={tweleveth} />
+    <div className="monthContainer">
+      <img className="pic pic1" src={dec1} />
+      <img className="pic pic2" src={dec2} />
+      <img className="pic pic3" src={dec3} />
+      <img className="pic pic4" src={dec4} />
+      <img className="pic pic5" src={dec5} />
+      <img className="pic pic6" src={dec6} />
+      <img className="pic pic7" src={dec7} />
+      <img className="pic pic9" src={dec8} />
+      <span className="title">December 2017</span></div>
   </div>
 );
 
