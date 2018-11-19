@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './happybirthday.scss';
+import Mail from './mail';
 
 const HappyBirthday = () => (
   <div>
@@ -35,6 +36,7 @@ const HappyBirthday = () => (
       <div className='ltrb ltrb13'>s</div>
       <div className='ltrb ltrb14'>s</div>
     </div>
+    <Mail />
   </div>
 );
 
