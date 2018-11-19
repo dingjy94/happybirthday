@@ -1,0 +1,576 @@
+.textBlock {
+  position: absolute;
+  top: 42%;
+  left: 60%;
+  transform: translate(-90%, -50%);
+  font-family: "Arial", sans-serif;
+  margin: 0;
+}
+.textBlock2 {
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-10%, -50%);
+  font-family: "Arial", sans-serif;
+  margin: 0;
+}
+.ltr {
+  display: inline-block;
+  font-size: 2.5rem;
+  font-weight: bold;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-delay: 26.3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.ltrb {
+  display: inline-block;
+  font-size: 2.5rem;
+  font-weight: bold;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-delay: 26.3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.ltr1 {
+  color: rgb(152,251,152);
+  text-shadow: -2px 0 3px rgba(152,251,152,0.8), 2px 0 3px rgba(152,251,152,0.8), 0 -2px 3px rgba(152,251,152,0.8), 0 2px 3px rgba(152,251,152,0.8), -2px -2px 3px rgba(152,251,152,0.8), 2px 2px 3px rgba(152,251,152,0.8), 2px -2px 3px rgba(152,251,152,0.8), -2px 2px 3px rgba(152,251,152,0.8);
+  animation-name: openAnimH;
+}
+.ltr2 {
+  color: rgb(205, 235, 255);
+  text-shadow: -2px 0 3px rgba(205, 235, 255, 0.8), 2px 0 3px rgba(205, 235, 255,0.8), 0 -2px 3px rgba(205, 235, 255,0.8), 0 2px 3px rgba(205, 235, 255,0.8), -2px -2px 3px rgba(205, 235, 255,0.8), 2px 2px 3px rgba(205, 235, 255,0.8), 2px -2px 3px rgba(205, 235, 255,0.8), -2px 2px 3px rgba(205, 235, 255,0.8);
+  animation-name: openAnimA;
+}
+.ltr3 {
+  color: #ffffcd;
+  text-shadow: -2px 0 3px rgba(255,255,205,0.8), 2px 0 3px rgba(255,255,205,0.8), 0 -2px 3px rgba(255,255,205,0.8), 0 2px 3px rgba(255,255,205,0.8), -2px -2px 3px rgba(255,255,205,0.8), 2px 2px 3px rgba(255,255,205,0.8), 2px -2px 3px rgba(255,255,205,0.8), -2px 2px 3px rgba(255,255,205,0.8);
+  animation-name: openAnimP1;
+}
+.ltr4 {
+  color: rgb(64,224,208);
+  text-shadow: -2px 0 3px rgba(64,224,208,0.8), 2px 0 3px rgba(64,224,208,0.8), 0 -2px 3px rgba(64,224,208,0.8), 0 2px 3px rgba(64,224,208,0.8), -2px -2px 3px rgba(64,224,208,0.8), 2px 2px 3px rgba(64,224,208,0.8), 2px -2px 3px rgba(64,224,208,0.8), -2px 2px 3px rgba(64,224,208,0.8);
+  animation-name: openAnimP2;
+}
+
+.ltr5 {
+  color: rgb(244,164,96);
+  text-shadow: -2px 0 3px rgba(244,164,96,0.8), 2px 0 3px rgba(244,164,96,0.8), 0 -2px 3px rgba(244,164,96,0.8), 0 2px 3px rgba(244,164,96,0.8), -2px -2px 3px rgba(244,164,96,0.8), 2px 2px 3px rgba(244,164,96,0.8), 2px -2px 3px rgba(244,164,96,0.8), -2px 2px 3px rgba(244,164,96,0.8);
+  animation-name: openAnimY1;
+}
+.ltr6 {
+  color: #cdffff;
+  text-shadow: -2px 0 3px rgba(205,255,255,0.8), 2px 0 3px rgba(205,255,255,0.8), 0 -2px 3px rgba(205,255,255,0.8), 0 2px 3px rgba(205,255,255,0.8), -2px -2px 3px rgba(205,255,255,0.8), 2px 2px 3px rgba(205,255,255,0.8), 2px -2px 3px rgba(205,255,255,0.8), -2px 2px 3px rgba(205,255,255,0.8);
+  animation-name: openAnimB;
+}
+.ltr7 {
+  color: yellow;
+  text-shadow: -2px 0 3px rgba(255,255,205,0.8), 2px 0 3px rgba(255,255,205,0.8), 0 -2px 3px rgba(255,255,205,0.8), 0 2px 3px rgba(255,255,205,0.8), -2px -2px 3px rgba(255,255,205,0.8), 2px 2px 3px rgba(255,255,205,0.8), 2px -2px 3px rgba(255,255,205,0.8), -2px 2px 3px rgba(255,255,205,0.8);
+  animation-name: openAnimI;
+}
+.ltr8 {
+  color: #e1e1cd;
+  text-shadow: -2px 0 3px rgba(225,225,205,0.8), 2px 0 3px rgba(225,225,205,0.8), 0 -2px 3px rgba(225,225,205,0.8), 0 2px 3px rgba(225,225,205,0.8), -2px -2px 3px rgba(225,225,205,0.8), 2px 2px 3px rgba(225,225,205,0.8), 2px -2px 3px rgba(225,225,205,0.8), -2px 2px 3px rgba(225,225,205,0.8);
+  animation-name: openAnimR;
+}
+
+.ltr9 {
+  color: rgb(255,105,180);
+  text-shadow: -2px 0 3px rgba(255,105,180,0.8), 2px 0 3px rgba(255,105,180,0.8), 0 -2px 3px rgba(255,105,180,0.8), 0 2px 3px rgba(255,105,180,0.8), -2px -2px 3px rgba(255,105,180,0.8), 2px 2px 3px rgba(255,105,180,0.8), 2px -2px 3px rgba(255,105,180,0.8), -2px 2px 3px rgba(255,105,180,0.8);
+  animation-name: openAnimT;
+}
+.ltr10 {
+  color: #cdffff;
+  text-shadow: -2px 0 3px rgba(205,255,255,0.8), 2px 0 3px rgba(205,255,255,0.8), 0 -2px 3px rgba(205,255,255,0.8), 0 2px 3px rgba(205,255,255,0.8), -2px -2px 3px rgba(205,255,255,0.8), 2px 2px 3px rgba(205,255,255,0.8), 2px -2px 3px rgba(205,255,255,0.8), -2px 2px 3px rgba(205,255,255,0.8);
+  animation-name: openAnimH2;
+}
+.ltr11 {
+  color: #ffffcd;
+  text-shadow: -2px 0 3px rgba(255,255,205,0.8), 2px 0 3px rgba(255,255,205,0.8), 0 -2px 3px rgba(255,255,205,0.8), 0 2px 3px rgba(255,255,205,0.8), -2px -2px 3px rgba(255,255,205,0.8), 2px 2px 3px rgba(255,255,205,0.8), 2px -2px 3px rgba(255,255,205,0.8), -2px 2px 3px rgba(255,255,205,0.8);
+  animation-name: openAnimD;
+}
+.ltr12 {
+  color: rgb(65,105,225);
+  text-shadow: -2px 0 3px rgba(65,105,225,0.8), 2px 0 3px rgba(65,105,225,0.8), 0 -2px 3px rgba(65,105,225,0.8), 0 2px 3px rgba(65,105,225,0.8), -2px -2px 3px rgba(65,105,225,0.8), 2px 2px 3px rgba(65,105,225,0.8), 2px -2px 3px rgba(65,105,225,0.8), -2px 2px 3px rgba(65,105,225,0.8);
+  animation-name: openAnimA2;
+}
+.ltr13 {
+  color: #ffffcd;
+  text-shadow: -2px 0 3px rgba(255,255,205,0.8), 2px 0 3px rgba(255,255,205,0.8), 0 -2px 3px rgba(255,255,205,0.8), 0 2px 3px rgba(255,255,205,0.8), -2px -2px 3px rgba(255,255,205,0.8), 2px 2px 3px rgba(255,255,205,0.8), 2px -2px 3px rgba(255,255,205,0.8), -2px 2px 3px rgba(255,255,205,0.8);
+  animation-name: openAnimY2;
+}
+
+.ltrb1 {
+  color: rgb(255,255,240);
+  text-shadow: -2px 0 3px rgba(255,255,240,0.8), 2px 0 3px rgba(255,255,240,0.8), 0 -2px 3px rgba(255,255,240,0.8), 0 2px 3px rgba(255,255,240,0.8), -2px -2px 3px rgba(255,255,240,0.8), 2px 2px 3px rgba(255,255,240,0.8), 2px -2px 3px rgba(255,255,240,0.8), -2px 2px 3px rgba(255,255,240,0.8);
+  animation-name: openAnimL;
+}
+.ltrb2 {
+  color: rgb(205, 235, 255);
+  text-shadow: -2px 0 3px rgba(205, 235, 255, 0.8), 2px 0 3px rgba(205, 235, 255,0.8), 0 -2px 3px rgba(205, 235, 255,0.8), 0 2px 3px rgba(205, 235, 255,0.8), -2px -2px 3px rgba(205, 235, 255,0.8), 2px 2px 3px rgba(205, 235, 255,0.8), 2px -2px 3px rgba(205, 235, 255,0.8), -2px 2px 3px rgba(205, 235, 255,0.8);
+  animation-name: openAnimI2;
+}
+.ltrb3 {
+  color: #ffffcd;
+  text-shadow: -2px 0 3px rgba(255,255,205,0.8), 2px 0 3px rgba(255,255,205,0.8), 0 -2px 3px rgba(255,255,205,0.8), 0 2px 3px rgba(255,255,205,0.8), -2px -2px 3px rgba(255,255,205,0.8), 2px 2px 3px rgba(255,255,205,0.8), 2px -2px 3px rgba(255,255,205,0.8), -2px 2px 3px rgba(255,255,205,0.8);
+  animation-name: openAnimT3;
+}
+.ltrb4 {
+  color: #e1e1cd;
+  text-shadow: -2px 0 3px rgba(225,225,205,0.8), 2px 0 3px rgba(225,225,205,0.8), 0 -2px 3px rgba(225,225,205,0.8), 0 2px 3px rgba(225,225,205,0.8), -2px -2px 3px rgba(225,225,205,0.8), 2px 2px 3px rgba(225,225,205,0.8), 2px -2px 3px rgba(225,225,205,0.8), -2px 2px 3px rgba(225,225,205,0.8);
+  animation-name: openAnimT4;
+}
+.ltrb5 {
+  color: rgb(152,251,152);
+  text-shadow: -2px 0 3px rgba(152,251,152,0.8), 2px 0 3px rgba(152,251,152,0.8), 0 -2px 3px rgba(152,251,152,0.8), 0 2px 3px rgba(152,251,152,0.8), -2px -2px 3px rgba(152,251,152,0.8), 2px 2px 3px rgba(152,251,152,0.8), 2px -2px 3px rgba(152,251,152,0.8), -2px 2px 3px rgba(152,251,152,0.8);
+  animation-name: openAnimL2;
+}
+.ltrb6 {
+  color: #cdffff;
+  text-shadow: -2px 0 3px rgba(205,255,255,0.8), 2px 0 3px rgba(205,255,255,0.8), 0 -2px 3px rgba(205,255,255,0.8), 0 2px 3px rgba(205,255,255,0.8), -2px -2px 3px rgba(205,255,255,0.8), 2px 2px 3px rgba(205,255,255,0.8), 2px -2px 3px rgba(205,255,255,0.8), -2px 2px 3px rgba(205,255,255,0.8);
+  animation-name: openAnimE1;
+}
+.ltrb7 {
+  color: yellow;
+  text-shadow: -2px 0 3px rgba(255,255,205,0.8), 2px 0 3px rgba(255,255,205,0.8), 0 -2px 3px rgba(255,255,205,0.8), 0 2px 3px rgba(255,255,205,0.8), -2px -2px 3px rgba(255,255,205,0.8), 2px 2px 3px rgba(255,255,205,0.8), 2px -2px 3px rgba(255,255,205,0.8), -2px 2px 3px rgba(255,255,205,0.8);
+  animation-name: openAnimP3;
+}
+.ltrb8 {
+  color: #e1e1cd;
+  text-shadow: -2px 0 3px rgba(225,225,205,0.8), 2px 0 3px rgba(225,225,205,0.8), 0 -2px 3px rgba(225,225,205,0.8), 0 2px 3px rgba(225,225,205,0.8), -2px -2px 3px rgba(225,225,205,0.8), 2px 2px 3px rgba(225,225,205,0.8), 2px -2px 3px rgba(225,225,205,0.8), -2px 2px 3px rgba(225,225,205,0.8);
+  animation-name: openAnimR2;
+}
+.ltrb9 {
+  color: rgb(255,105,180);
+  text-shadow: -2px 0 3px rgba(255,105,180,0.8), 2px 0 3px rgba(255,105,180,0.8), 0 -2px 3px rgba(255,105,180,0.8), 0 2px 3px rgba(255,105,180,0.8), -2px -2px 3px rgba(255,105,180,0.8), 2px 2px 3px rgba(255,105,180,0.8), 2px -2px 3px rgba(255,105,180,0.8), -2px 2px 3px rgba(255,105,180,0.8);
+  animation-name: openAnimI3;
+}
+.ltrb10 {
+  color: #cdffff;
+  text-shadow: -2px 0 3px rgba(205,255,255,0.8), 2px 0 3px rgba(205,255,255,0.8), 0 -2px 3px rgba(205,255,255,0.8), 0 2px 3px rgba(205,255,255,0.8), -2px -2px 3px rgba(205,255,255,0.8), 2px 2px 3px rgba(205,255,255,0.8), 2px -2px 3px rgba(205,255,255,0.8), -2px 2px 3px rgba(205,255,255,0.8);
+  animation-name: openAnimN;
+}
+.ltrb11 {
+  color: #ffffcd;
+  text-shadow: -2px 0 3px rgba(255,255,205,0.8), 2px 0 3px rgba(255,255,205,0.8), 0 -2px 3px rgba(255,255,205,0.8), 0 2px 3px rgba(255,255,205,0.8), -2px -2px 3px rgba(255,255,205,0.8), 2px 2px 3px rgba(255,255,205,0.8), 2px -2px 3px rgba(255,255,205,0.8), -2px 2px 3px rgba(255,255,205,0.8);
+  animation-name: openAnimC;
+}
+.ltrb12 {
+  color: rgb(64,224,208);
+  text-shadow: -2px 0 3px rgba(64,224,208,0.8), 2px 0 3px rgba(64,224,208,0.8), 0 -2px 3px rgba(64,224,208,0.8), 0 2px 3px rgba(64,224,208,0.8), -2px -2px 3px rgba(64,224,208,0.8), 2px 2px 3px rgba(64,224,208,0.8), 2px -2px 3px rgba(64,224,208,0.8), -2px 2px 3px rgba(64,224,208,0.8);
+  animation-name: openAnimE2;
+}
+.ltrb13 {
+  color: #ffffcd;
+  text-shadow: -2px 0 3px rgba(255,255,205,0.8), 2px 0 3px rgba(255,255,205,0.8), 0 -2px 3px rgba(255,255,205,0.8), 0 2px 3px rgba(255,255,205,0.8), -2px -2px 3px rgba(255,255,205,0.8), 2px 2px 3px rgba(255,255,205,0.8), 2px -2px 3px rgba(255,255,205,0.8), -2px 2px 3px rgba(255,255,205,0.8);
+  animation-name: openAnimS;
+}
+.ltrb14 {
+  color: rgb(50,205,50);
+  text-shadow: -2px 0 3px rgba(50,205,50,0.8), 2px 0 3px rgba(50,205,50,0.8), 0 -2px 3px rgba(50,205,50,0.8), 0 2px 3px rgba(50,205,50,0.8), -2px -2px 3px rgba(50,205,50,0.8), 2px 2px 3px rgba(50,205,50,0.8), 2px -2px 3px rgba(50,205,50,0.8), -2px 2px 3px rgba(50,205,50,0.8);
+  animation-name: openAnimS2;
+}
+
+@keyframes openAnimH {
+  0% {
+    opacity: 0;
+  }
+  3% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openAnimA {
+  0% {
+    opacity: 0;
+  }
+  3% {
+    opacity: 0;
+  }
+  6% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openAnimP1 {
+  0% {
+    opacity: 0;
+  }
+  6% {
+    opacity: 0;
+  }
+  9% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openAnimP2 {
+  0% {
+    opacity: 0;
+  }
+  9% {
+    opacity: 0;
+  }
+  12% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openAnimY1 {
+  0% {
+    opacity: 0;
+  }
+  12% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openAnimB {
+  0% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 0;
+  }
+  18% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openAnimI {
+  0% {
+    opacity: 0;
+  }
+  18% {
+    opacity: 0;
+  }
+  21% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openAnimR {
+  0% {
+    opacity: 0;
+  }
+  21% {
+    opacity: 0;
+  }
+  24% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openAnimT {
+  0% {
+    opacity: 0;
+  }
+  24% {
+    opacity: 0;
+  }
+  27% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openAnimH2 {
+  0% {
+    opacity: 0;
+  }
+  27% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openAnimD {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openAnimA2 {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 0;
+  }
+  36% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openAnimY2 {
+  0% {
+    opacity: 0;
+  }
+  36% {
+    opacity: 0;
+  }
+  39% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openAnimL {
+  0% {
+    opacity: 0;
+  }
+  39% {
+    opacity: 0;
+  }
+  42% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openAnimI2 {
+  0% {
+    opacity: 0;
+  }
+  42% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openAnimT3 {
+  0% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 0;
+  }
+  48% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openAnimT4 {
+  0% {
+    opacity: 0;
+  }
+  48% {
+    opacity: 0;
+  }
+  51% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openAnimL2 {
+  0% {
+    opacity: 0;
+  }
+  54% {
+    opacity: 0;
+  }
+  57% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openAnimE1 {
+  0% {
+    opacity: 0;
+  }
+  57% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openAnimP3 {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  63% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openAnimR2 {
+  0% {
+    opacity: 0;
+  }
+  63% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openAnimI3 {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  69% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openAnimN {
+  0% {
+    opacity: 0;
+  }
+  69% {
+    opacity: 0;
+  }
+  72% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openAnimC {
+  0% {
+    opacity: 0;
+  }
+  72% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openAnimE2 {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  78% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openAnimS {
+  0% {
+    opacity: 0;
+  }
+  78% {
+    opacity: 0;
+  }
+  81% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openAnimS2 {
+  0% {
+    opacity: 0;
+  }
+  81% {
+    opacity: 0;
+  }
+  84% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}

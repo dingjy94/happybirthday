@@ -1,0 +1,32 @@
+#mailContainer {
+    width: 3.8rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 38%;
+    left: 68%;
+    z-index: 3;
+    opacity: 0;
+    cursor: pointer;
+    animation-delay: 30.5s;
+    animation-duration: 1.8s;
+    animation-fill-mode: forwards;
+    animation-name: mail;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    img:hover {
+        transform: rotate(0deg) scale(1.10);
+    }
+}
+
+@keyframes mail {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.7;
+    }
+}
