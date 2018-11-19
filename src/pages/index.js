@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import Image from '../components/image';
 import HappyBirthday from '../components/happybirthday';
 import Loading from '../components/loading';
+import Introduction from '../components/introduction';
 
 class IndexPage extends Component {
   constructor() {
@@ -27,6 +28,7 @@ class IndexPage extends Component {
     if (!this.state.loading) {
       return (
         <div style={{ height: '100%', width: '100%', backgroundColor: '#fbd2db'}}>
+          <Introduction />
           <Image />
           <HappyBirthday />
         </div>
