@@ -21,7 +21,7 @@ class IndexPage extends Component {
     const cur = this;
     setTimeout(function() {
       cur.loaded();
-    }, 3);
+    }, 3000);
   }
 
   loaded() {

@@ -20,6 +20,7 @@ function MailBoard() {
             <span>而且，我相信一定也有别的人被你温暖过，救赎过。</span><br/>
             <span>所以啊，小仙女，你理所当然配得上所有的温柔和幸福。</span><br/>
             <span>新的一年，要多笑哦。我真的真的，最喜欢看你笑了。</span><br/>
+            <br/>
             <span style={{float: "right"}}>反正你知道我是谁（逃</span>
           </Typing>
         </div>
