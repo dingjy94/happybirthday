@@ -6,8 +6,8 @@ import './mail.scss';
 import mail from '../images/mail.jpg';
 
 
-const Mail = () => (
-  <div id="mailContainer">
+const Mail = ({onClick}) => (
+  <div id="mailContainer" onClick={onClick}>
     <img className="mail" src={mail} />
     <span>点我</span>
   </div>

@@ -1,0 +1,43 @@
+#letterContainer {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 5;
+
+    #mailBg {
+        position: absolute;
+        z-index: 5;
+        top: 5%;
+        height: 85%;
+        width: 38%;
+        left: 33%;
+        border: 4px solid white;
+        box-shadow: 2px 2px 3px rgba(50, 50, 50, 0.4);
+        background-color: white;
+        #bgImage {
+            background-image: url("../images/mailbg.jpg");
+            background-size: contain;
+            background-repeat:   no-repeat;
+            background-position: center center;
+            background-color: white;
+            opacity: 0.3;
+            filter: alpha(opacity=30);
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+
+        #letter {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            padding: 5%;
+            span {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 50%;
+            }
+        }
+}
+}
+

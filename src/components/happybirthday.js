@@ -3,7 +3,7 @@ import React from 'react';
 import './happybirthday.scss';
 import Mail from './mail';
 
-const HappyBirthday = () => (
+const HappyBirthday = ({onClick}) => (
   <div>
     <div className='textBlock'>
       <div className='ltr ltr1'>H</div>
@@ -36,7 +36,7 @@ const HappyBirthday = () => (
       <div className='ltrb ltrb13'>s</div>
       <div className='ltrb ltrb14'>s</div>
     </div>
-    <Mail />
+    <Mail onClick={onClick}/>
   </div>
 );
 
